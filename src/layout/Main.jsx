@@ -5,10 +5,10 @@ import Footer from "../pages/Share/Footer";
 const Main = () => {
   return (
     <div>
-      <div className="bg-base-100">
+      <div className="relative">
         <Navbar />
       </div>
-      <div className="min-h-screen">
+      <div >
         <Outlet />
       </div>
       <div>
