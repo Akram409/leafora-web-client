@@ -60,6 +60,9 @@ const Navbar = () => {
           <li>
             <Link to="/disease">Disease</Link>
           </li>
+          <li>
+            <Link to="/pricing">Pricing</Link>
+          </li>
         </ul>
       </div>
       <div className="navbar-end">
