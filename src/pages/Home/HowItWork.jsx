@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { MdOutlineCamera } from "react-icons/md";
-
 import { FaMagic } from "react-icons/fa";
-import SectionTitle from "../../Components/SectionTitle";
 import { BsRobot } from "react-icons/bs";
 import { GrChatOption } from "react-icons/gr";
 import SectionTitleTwo from "../../Components/SectionTitleTwo";
@@ -47,8 +45,7 @@ const HowItWork = () => {
   return (
     <section className="bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4">
-
-<SectionTitleTwo text="How to identify" second="a disease"/>
+        <SectionTitleTwo text="How to identify" second="a disease" />
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           {/* Left side - Image */}
           <div className="lg:w-1/2">
