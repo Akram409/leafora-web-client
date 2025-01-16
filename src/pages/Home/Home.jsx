@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="">
       <Banner />
-      <div className="container mx-auto px-16 space-y-24">
+      <div className="container mx-auto px-16 lg:space-y-28">
         <KeyFeature />
         <HowItWork />
         <WhyChooseUs />
